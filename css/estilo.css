@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+
+}
+
+:root {
+    --primary: #B6B6B6;
+    --secundary: #797979;
+    --third: #000000;
+    --fourth: #FF0101;
+    --fifth: #58B24A;
+}
+
+/* CABEÇALHO */
+
+header {
+    border-bottom: 0.4rem solid #000000;
+    display: flex;
+    height: 6rem;
+    background-color: #797979;
+}
+
+header picture {
+    margin-left: 0.5rem;
+    padding: 4rem;
+}
+
+header picture img {
+    height: 80%
+}
+
+/* NAVEGAÇÃO */
+div{
+width: 50%;
+}
+
+h1{
+width: 30%;
+}
+
+header nav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    width:100%;
+    justify-content: space-around;
+}
+header nav ul li{
+    display: inline-block;
+}
