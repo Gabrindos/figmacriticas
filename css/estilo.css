@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     outline: 0;
-    box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 
@@ -23,18 +22,11 @@
 header {
     border-bottom: 0.4rem solid #000000;
     display: flex;
-    height: 6rem;
+    height: 5.1rem;
     background-color: #797979;
 }
 
-header picture {
-    margin-left: 0.5rem;
-    padding: 4rem;
-}
 
-header picture img {
-    height: 80%
-}
 
 /* NAVEGAÇÃO */
 div{
@@ -53,11 +45,49 @@ header nav{
 }
 
 header nav ul{
+    color: white;
     display: flex;
     align-items: center;
     width:100%;
     justify-content: space-around;
 }
 header nav ul li{
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-around;
+    float: right;
+
+}
+
+/* O MEIO */
+
+main section.protafilm{
+    display:flex ;
+    grid-template-columns: auto auto auto;
+    gap: 0.3rem;
+}
+main section.protafilm p{
+
+    background-color: #58B24A;
+    border-radius: 1rem;
+    padding: 1rem;
+    line-height: 5.4rem;
+    
+}
+
+main section.pritafilm img{
+    display: flex;
+}
+
+
+
+
+
+
+article{
+    display: flex;
+}
+article img{
+    widows: var(--secundary);
 }
