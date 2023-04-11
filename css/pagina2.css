@@ -5,7 +5,7 @@
     padding: 0;
     outline: 0;
     font-family: 'Inter', sans-serif;
-    font-weight: 200;
+    font-weight: 100;
 
 }
 
@@ -17,8 +17,10 @@
     --fifth: #58B24A;
 }
 
-/* CABEÇALHO */
+/* PAGINA 2*/
 
+
+/* CABEÇARIO */
 header {
     border-bottom: 0.4rem solid #000000;
     display: flex;
@@ -35,6 +37,11 @@ width: 50%;
 
 h1{
 width: 30%;
+text-decoration: white;
+}
+
+header div{
+    text-decoration: none;
 }
 
 header nav{
@@ -59,9 +66,6 @@ header nav ul li{
     float: right;
 
 }
-
-/* O MEIO */
-
 main{
     border-bottom: 0.4rem solid #000000;
     background-color: #B6B6B6;
@@ -69,54 +73,63 @@ main{
 
 }
 
-main section.protafilm{
-    display:flex;
-    grid-template-columns: auto auto auto;
-    gap: 0.3rem;
-    max-height: 17rem;
-}
-main section.protafilm p{
 
-    color: #58B24A;
-    border-radius: 1rem;
-    padding: 1rem;
-    line-height: 0.4rem;
-    
+/* O MEIO 2 */
+
+
+main section.sinopse {
+    display: flex;
+    max-height: 18rem
+
+
 }
 
-main section.protafilm img{
+main section.sinopse img{
+
     display: flex;
     align-items: flex;
     width:25%;
-    padding: 0.3rem
-    
-    
-    
+    padding: 0.3rem;
+    max-height: 20%;
 }
 
-
-main section.protafilm div{
+main section.sinopse h2{
+    width: 80%;
+}
+main section.sinopse p{
     display: flex;
-    align-items: left;
-    width: 62%;
-    
-    
-    
-}
-main section.protafilm div img{
-    width: 25%; 
+    height: 40%;
+    width: 75%;
 }
 
-/* O MEIO DE BAIXO */
 
- main section.filmesbaixo{
-    display:flex;
-    grid-template-columns: auto auto auto;
-    gap: 16rem;
-    width: 5%;
-    height: 17rem;
 
+
+
+/* PARTE DAS NOTAS */
+
+
+main section.notas p{
+    display: flex;
+    color: #58B24A;
+    width: 50%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*PÉ*/
@@ -130,10 +143,3 @@ footer img{
     height: 85%;
     align-items: center;
 }
-
-
-
-/* PAGINA 2*/
-
-
-/* CABEÇARIO */
